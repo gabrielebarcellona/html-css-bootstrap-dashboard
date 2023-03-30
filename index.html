@@ -13,18 +13,33 @@
 </head>
 <body>
     <header>
-        <nav class="d-flex align-items-center">
+        <nav class="d-flex align-items-center p-3">
             <div class="logo"><img src="img/logo.svg" alt=""></div>
             
                 <div class="input-group flex-nowrap w-75 p-3 ">
                     <span class="input-group-text" id="addon-wrapping"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></span>
-                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                    <input type="text" class="form-control bg-body-secondary" placeholder="Prova a cercare:lezioni di Laravel" aria-label="Username" aria-describedby="addon-wrapping">
                 
             </div>
-            <div class="item p-3">
+            <div class="item p-3 d-flex  ">
                 <i class="fa-solid fa-list p-2"></i>
+                <i class="fa-solid fa-circle-question p-2"></i> 
                 <i class="fa-solid fa-ellipsis-vertical p-2"></i>
+                <div class="dropdown">
+                    <button class="btn text-warning dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bell"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Profilo</a></li>
+                      <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                      <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                  </div>
+
             </div>
+                 
+                
+                    
         </nav>
     </header>
 
