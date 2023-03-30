@@ -2,3 +2,15 @@ nav{
     background-color: white;
     height: 80px;
 }
+
+.sidebar{
+    height: calc(100vh - 80px);
+    background-image:url(img/sidebar-bg.png) ;
+    background-color: #0b2339;
+    width: 10%;
+}
+
+.item i,
+.item2 i{
+    color: white;
+}
