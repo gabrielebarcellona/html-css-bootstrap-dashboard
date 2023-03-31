@@ -10,7 +10,19 @@ nav{
     width: 10%;
 }
 
-.item i,
+.item1 i,
 .item2 i{
     color: white;
+}
+
+.section{
+    background-color: #1b72e8;
+    height: 150px;
+    width: 100%;
+    color: white;
+    padding: .5rem;
+}
+
+.section .opacity{
+    opacity: 85%;
 }
